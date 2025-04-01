@@ -56,6 +56,6 @@ The interactive dashboard consists of five pages:
 ## Author
 **Alexis Lydon**  
 *Aspiring Data Analyst · UC Davis B.S. Computer Science*  
-[Email](mailto:alexisblydon@gmail.com) · [LinkedIn](www.linkedin.com/in/alexis-lydon-477498223) · [My Portfolio](https://alexisbl14.github.io/personal-portfolio/)
+[Email](mailto:alexisblydon@gmail.com) · [LinkedIn](https://www.linkedin.com/in/alexis-lydon-477498223/) · [My Portfolio](https://alexisbl14.github.io/personal-portfolio/)
 
 ---
