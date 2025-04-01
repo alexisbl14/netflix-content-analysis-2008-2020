@@ -1,5 +1,5 @@
 # Netflix Streaming Content Analysis (2008–2020) (March 2025 - Present) (Work in Progress)
-This project explores trends in Netflix's content from January 2008 to January 2020 using a cleaned and transformed dataset from Tableau Public (insert here).
+This project explores trends in Netflix's content from January 2008 to January 2020 using a cleaned and transformed [dataset](https://public.tableau.com/app/learn/sample-data) from Tableau Public.
 It analyzes growth trends, genre and rating distributions, and country-level contributions — offering insight into how Netflix’s global catalog has evolved.
 
 ## Project Highlights
@@ -42,10 +42,10 @@ The interactive dashboard consists of five pages:
 ## Key Insights
 
 ## Project Assets
-- Power BI Report:
-- PDF Export (Static Power BI Report):
+- Power BI Report: [`Netflix Insights Dashboard.pbix`](Netflix Insights Dashboard.pbix)
+- PDF Export (Static Power BI Report): [`Netflix Insights Dashboard.pdf`](Netflix Insights Dashboard.pdf)
 - Dashboard Screenshots:
-- Dataset Source: 
+- Dataset Source: [Tableau Public Datasets](https://public.tableau.com/app/learn/sample-data)
 
 ## How to View the Project
 1. Open the `.pbix` file in Power BI Desktop
