@@ -42,8 +42,8 @@ The interactive dashboard consists of five pages:
 ## Key Insights
 
 ## Project Assets
-- Power BI Report: [`Netflix Insights Dashboard.pbix`](Netflix Insights Dashboard.pbix)
-- PDF Export (Static Power BI Report): [`Netflix Insights Dashboard.pdf`](Netflix Insights Dashboard.pdf)
+- Power BI Report: [`Netflix Insights Dashboard.pbix`](https://github.com/alexisbl14/netflix-content-analysis-2008-2020/blob/main/Netflix%20Insights%20Dashboard.pbix)
+- PDF Export (Static Power BI Report): [`Netflix Insights Dashboard.pdf`](https://github.com/alexisbl14/netflix-content-analysis-2008-2020/blob/main/Netflix%20Insights%20Dashboard.pdf)
 - Dashboard Screenshots:
 - Dataset Source: [Tableau Public Datasets](https://public.tableau.com/app/learn/sample-data)
 
