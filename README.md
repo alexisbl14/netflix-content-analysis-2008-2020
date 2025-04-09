@@ -21,7 +21,7 @@ I contributed to this project from March 2025 to April 2025.
 ## Dataset Overview
 - **Source**: [Excel](https://public.tableau.com/app/learn/sample-data) table with 5 sheets
 - Cleaned and joined 3 CSVs from the original dataset
-    * `netflix_titles_working_sheet`
+    * `netflix_titles`
     * `netflix_titles_category`
     * `netflix_titles_countries`
 - **Data Cards**: The following tables describe the 3 CSV files with data from the source.
