@@ -63,6 +63,8 @@ I contributed to this project from March 2025 to April 2025.
   | `country` | Country the title originated from |
   | `show_id` | ID for the TV Show or Movie |
 
+### ERD Diagram
+![ERD Diagram](./assets/Netflix Data Analysis ERD Diagram.png)
 
 
 ## Dataset Preparation
