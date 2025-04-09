@@ -21,7 +21,8 @@ It analyzes growth trends, genre and rating distributions, and country-level con
     * `netflix_titles_working_sheet`
     * `netflix_titles_category`
     * `netflix_titles_countries`
-- **Data Card**: The following tables describe the 3 CSV files with data from the source.
+- **Data Cards**: The following tables describe the 3 CSV files with data from the source.
+  
   `netflix_titles_description`
   
   | Field | Description |
@@ -47,7 +48,7 @@ It analyzes growth trends, genre and rating distributions, and country-level con
   | `listed_in` | Original genre for the title |
   | `show_id` | ID for the TV Show or Movie |
 
-_Note: Titles with more than one genre had one row for each genre._
+   _Note: Titles with more than one genre had one row for each genre._
 
   `netflix_titles_countries`
   
