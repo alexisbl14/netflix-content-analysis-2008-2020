@@ -62,6 +62,7 @@ It analyzes growth trends, genre and rating distributions, and country-level con
     * `rating_mapping` maps the original ratings to a label such as `Kid-Friendly`, `Teen`, `Adult`, or `Not Rated`
 
 ## Dataset Preparation
+The dataset included over 6,000 Netflix titles with different attributes, and the data required a bit of cleaning and restructuring.
 Most of the dataset preparation and cleaning was done in Excel:
 - In entries with a missing `rating` field, I looked up the rating on Google and filled it in myself
     * about 9 entries, or ~0.14% of entries, were affected here
@@ -75,18 +76,25 @@ Most of the dataset preparation and cleaning was done in Excel:
 - Created a column to denote the number of years after release that the show or movie was added to Netflix
      * Some values were negative, so I set them to be 0 since it doesn't make sense that the show or movie was added to Netflix years before it was released.
      * This affected about 9 entries, or 0.14%
+- Joined 5 tables using `show_id` as the primary key
+- Created mapping tables for genres and ratings
 
 ## Dashboard Pages
 The interactive dashboard consists of five pages: 
-| Page    | Focus |
-| -------- | ------- |
-| **Overview**  | KPIs, growth trends, content breakdown by type |
-| **Genre Breakdown** | Genre distribution over time and by type |
-| **Rating Analysis**    | Categorized ratings (Kid, Teen, Adult) over time and by genre |
-| **Country Analysis**    | Top contributing countries and their top genres |
-| **Explorer Page**    | Interactive searchable table of all titles with filters |
+
+**1. Overview** 
+A summary of total titles, content and growth trends over time, and type breakdown (Movies vs TV Shows). Includes YoY growth and slicers for filtering by genre, country, rating, release year, and type.
+**2. Genre Breakdown**
+Explores the most popular genres overall and by content type, as well as the genre distribution over time.
+**3. Rating Analysis**
+Groups content ratings into Kid-Friendly, Teen, Adult, and Not Rated categories. Visualizes the shift in rating types over time and highlights the most common categories per genre.
+**4. Country Analysis**
+Examines which countries contribute the most titles to Netflix's catalog and what genres are most commone in each. Includes a treemap and top genres for the top countries. 
+**5. Explorer Page**
+A search table for users to filter and explore individual titles by genre, release year, duration (seasons or minutes), rating category, and type.
 
 ## Key Insights
+- 
 
 ## Project Assets
 - Power BI Report: [`Netflix Insights Dashboard.pbix`](https://github.com/alexisbl14/netflix-content-analysis-2008-2020/blob/main/Netflix%20Insights%20Dashboard.pbix)
@@ -99,6 +107,10 @@ The interactive dashboard consists of five pages:
 2. Explore the dashboard pages using slicers and buttons
 3. Use slicers to drill into specific years, countries, or rating categories
 4. Alternatively, view the exported visuals in (name of dashboard pdf)
+
+## Future Exploration
+- Find top rating categories by country.
+- Transfer the interactive dashboard on Power BI into a Tableau Public dashboard.
 
 ## Author
 **Alexis Lydon**  
