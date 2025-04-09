@@ -80,6 +80,16 @@ Most of the dataset preparation and cleaning was done in Excel:
 - Joined 5 tables using `show_id` as the primary key
 - Created mapping tables for genres and ratings
 
+## Exploratory Data Analysis
+After preparing and cleaning the datasets, I performed exploratory data analysis (EDA) to better understand content patterns and identify areas of interest for the dashboard.
+Some interesting tables were exported, and are denoted by a comment `(Exported)` next to the query. These exports include:
+- `titles_with_normalized_genres_view` : A view for a table with the titles and normalized genres that was reused throughout the EDA
+- `yoy_growth` : Year over year growth in number of titles added to netflix
+- `genre_year_counts` : Counts of genres per year
+- `rating_category_breakdown` : Case breakdown of ratings between kid-friendly, teen, adult
+
+By analyzing genre frequencies, rating distributions, and country-level contributions, I identified patterns that guided both the layout and the analytical depth of each dashboard page. Trends uncovered during EDA, such as the rising dominance of TV Shows since 2017 and the dramatic year-over-year growth after 2016, helped prioritize visualizations like KPI cards and YoY trend lines in the Overview page. Ultimately, EDA served not just as a discovery tool, but as a design framework that made the dashboard more meaningful and user-focused.
+
 ## Dashboard Pages
 The interactive dashboard consists of five pages: 
 
@@ -112,6 +122,8 @@ A search table for users to filter and explore individual titles by genre, relea
 - PDF Export (Static Power BI Report): [`Netflix Insights Dashboard.pdf`](https://github.com/alexisbl14/netflix-content-analysis-2008-2020/blob/main/Netflix%20Insights%20Dashboard.pdf)
 - Dashboard Screenshots: [`/assets/`](./assets)
 - Dataset Source: [Tableau Public Datasets](https://public.tableau.com/app/learn/sample-data)
+- SQL Exploratory Data Analysis: [`netflix_titles_analysis.sql`](https://github.com/alexisbl14/netflix-content-analysis-2008-2020/blob/main/netflix_titles_analysis.sql)
+- CSV Data and SQL Query Outputs: [`/data`](./data)
 
 ## How to View the Project
 1. Open the `.pbix` file in Power BI Desktop
