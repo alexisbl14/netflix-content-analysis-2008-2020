@@ -94,7 +94,13 @@ Examines which countries contribute the most titles to Netflix's catalog and wha
 A search table for users to filter and explore individual titles by genre, release year, duration (seasons or minutes), rating category, and type.
 
 ## Key Insights
-- 
+- International titles made up over 70% of non-US content, reflecting Netflix's global expansion. This may also indicate that content not produced in the U.S. is frequently labeled as “International” by default, rather than by a specific genre, which could obscure cultural or thematic distinctions.
+- 42.8% of titles originate from the United Statesmore than any other country in the dataset. This highlights the U.S. as Netflix’s primary content source, despite global diversification in later years.
+- Adult-rated content (TV-MA, R) grew by 250% between 2015–2018, overtaking Kid-Friendly and Teen categories post-2016. This trend may reflect a strategic shift toward more mature audiences — potentially increasing exposure to adult themes among teens during that time, as age-based content restrictions on Netflix remained minimal.
+- Since 2017, TV Shows have outpaced Movies in growth, aligning with Netflix’s pivot toward episodic, binge-watchable content formats. This change mirrors the platform’s investment in original series and audience engagement through serialized storytelling.
+- Countries like Japan, Korea, and the UK contribute highly niche or genre specific content (eg Anime, Korean TV Shows, British TV Shows), suggesting strong regional variation.
+- Content diversity has increased post-2016, with more niche genres like LGBTQ+, Faith & Spirituality, and Science/Nature content entering the catalog, reflecting broader inclusivity and a widening appeal to diverse audiences.
+- Starting in 2016, Netflix saw a rapid growth in the number of titles added to the platform. This is most likely due to a number of factors including a global expansion into 130 new countries, the launch of popular original series, and a shift in consumer media consumption habits.
 
 ## Project Assets
 - Power BI Report: [`Netflix Insights Dashboard.pbix`](https://github.com/alexisbl14/netflix-content-analysis-2008-2020/blob/main/Netflix%20Insights%20Dashboard.pbix)
