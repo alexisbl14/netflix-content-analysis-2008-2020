@@ -64,7 +64,7 @@ I contributed to this project from March 2025 to April 2025.
   | `show_id` | ID for the TV Show or Movie |
 
 ### ERD Diagram
-![ERD Diagram](./assets/Netflix Data Analysis ERD Diagram.png)
+![ERD Diagram](./assets/Netflix%20Data%20Analysis%20ERD%20Diagram.png)
 
 
 ## Dataset Preparation
