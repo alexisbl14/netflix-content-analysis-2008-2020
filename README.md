@@ -62,6 +62,19 @@ It analyzes growth trends, genre and rating distributions, and country-level con
     * `rating_mapping` maps the original ratings to a label such as `Kid-Friendly`, `Teen`, `Adult`, or `Not Rated`
 
 ## Dataset Preparation
+Most of the dataset preparation and cleaning was done in Excel:
+- In entries with a missing `rating` field, I looked up the rating on Google and filled it in myself
+    * about 9 entries, or ~0.14% of entries, were affected here
+- Entries with a missing `date_added` field were removed, since a lot of my analysis relies on this field
+    * about 11 entries, or ~0.17% of entries, were removed
+- 4 entries had dates as titles, so I changed the datatype to string for consistency with the rest of the dataset
+- 2 entries had data overflowing to the next row, so I bumped the overflow back to the original row with a close attention to detail
+- 95 entries had a `rating` of `TV-Y7-FV`, which I changed to just `TV-Y7` since it is a very similar rating, in order to normalize `ratings` for a more cohesive analysis
+- 7 entries had `UR` rating, which I changed to `NR` to have a more cohesive analysis since these ratings mean the same thing
+- There were 2 duplicate entries, of which I removed the duplicates if they had the same dates and descriptions
+- Created a column to denote the number of years after release that the show or movie was added to Netflix
+     * Some values were negative, so I set them to be 0 since it doesn't make sense that the show or movie was added to Netflix years before it was released.
+     * This affected about 9 entries, or 0.14%
 
 ## Dashboard Pages
 The interactive dashboard consists of five pages: 
@@ -89,7 +102,7 @@ The interactive dashboard consists of five pages:
 
 ## Author
 **Alexis Lydon**  
-*Aspiring Data Analyst · UC Davis B.S. Computer Science*  
+*Aspiring Data Analyst and Software Developer · UC Davis B.S. Computer Science*  
 [Email](mailto:alexisblydon@gmail.com) · [LinkedIn](https://www.linkedin.com/in/alexis-lydon-477498223/) · [My Portfolio](https://alexisbl14.github.io/personal-portfolio/)
 
 ---
