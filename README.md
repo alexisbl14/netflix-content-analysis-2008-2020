@@ -24,6 +24,9 @@ I contributed to this project from March 2025 to April 2025.
     * `netflix_titles`
     * `netflix_titles_category`
     * `netflix_titles_countries`
+- Joined 2 CSVs that acted as mapping tables
+    * `genre_mapping` maps the original genre to a normalized genre, ie TV Drama and Drama just become one genre: Drama
+    * `rating_mapping` maps the original ratings to a label such as `Kid-Friendly`, `Teen`, `Adult`, or `Not Rated`
 - **Data Cards**: The following tables describe the 3 CSV files with data from the source.
   
   `netflix_titles_description`
@@ -60,9 +63,7 @@ I contributed to this project from March 2025 to April 2025.
   | `country` | Country the title originated from |
   | `show_id` | ID for the TV Show or Movie |
 
-- Joined 2 CSVs that acted as mapping tables
-    * `genre_mapping` maps the original genre to a normalized genre, ie TV Drama and Drama just become one genre: Drama
-    * `rating_mapping` maps the original ratings to a label such as `Kid-Friendly`, `Teen`, `Adult`, or `Not Rated`
+
 
 ## Dataset Preparation
 The dataset included over 6,000 Netflix titles with different attributes, and the data required a bit of cleaning and restructuring.
