@@ -1,0 +1,101 @@
+genre,rating_category,title_count
+Action/Adventure,Adult,347
+Action/Adventure,Kid-Friendly,62
+Action/Adventure,"Not Rated",30
+Action/Adventure,Teen,282
+Anime,Adult,36
+Anime,Kid-Friendly,37
+Anime,"Not Rated",12
+Anime,Teen,75
+"British TV Shows",Adult,77
+"British TV Shows",Kid-Friendly,77
+"British TV Shows","Not Rated",5
+"British TV Shows",Teen,50
+Comedy,Adult,761
+Comedy,Kid-Friendly,425
+Comedy,"Not Rated",57
+Comedy,Teen,597
+"Crime TV Shows",Adult,228
+"Crime TV Shows",Kid-Friendly,8
+"Crime TV Shows","Not Rated",4
+"Crime TV Shows",Teen,122
+Cult/Classic,Adult,59
+Cult/Classic,Kid-Friendly,46
+Cult/Classic,"Not Rated",10
+Cult/Classic,Teen,37
+Documentary,Adult,314
+Documentary,Kid-Friendly,301
+Documentary,"Not Rated",42
+Documentary,Teen,289
+Drama,Adult,1022
+Drama,Kid-Friendly,273
+Drama,"Not Rated",101
+Drama,Teen,824
+"Faith & Spirituality",Kid-Friendly,23
+"Faith & Spirituality",Teen,24
+"General Movies",Adult,11
+"General Movies",Kid-Friendly,37
+"General Movies","Not Rated",4
+"General Movies",Teen,3
+"General TV",Adult,3
+"General TV",Kid-Friendly,3
+"General TV",Teen,4
+Horror,Adult,228
+Horror,Kid-Friendly,2
+Horror,"Not Rated",10
+Horror,Teen,76
+"Independent Movies",Adult,363
+"Independent Movies",Kid-Friendly,31
+"Independent Movies","Not Rated",39
+"Independent Movies",Teen,119
+International,Adult,1187
+International,Kid-Friendly,409
+International,"Not Rated",114
+International,Teen,1215
+Kids/Family,Kid-Friendly,680
+Kids/Family,Teen,24
+"Korean TV Shows",Adult,22
+"Korean TV Shows",Kid-Friendly,32
+"Korean TV Shows",Teen,78
+LGBTQ+,Adult,38
+LGBTQ+,Kid-Friendly,8
+LGBTQ+,"Not Rated",5
+LGBTQ+,Teen,9
+"Music & Musicals",Adult,77
+"Music & Musicals",Kid-Friendly,65
+"Music & Musicals","Not Rated",5
+"Music & Musicals",Teen,96
+"Reality TV",Adult,45
+"Reality TV",Kid-Friendly,63
+"Reality TV",Teen,45
+Romance,Adult,152
+Romance,Kid-Friendly,122
+Romance,"Not Rated",16
+Romance,Teen,364
+"Sci-Fi & Fantasy",Adult,87
+"Sci-Fi & Fantasy",Kid-Friendly,46
+"Sci-Fi & Fantasy","Not Rated",4
+"Sci-Fi & Fantasy",Teen,123
+"Science & Nature TV",Adult,8
+"Science & Nature TV",Kid-Friendly,47
+"Science & Nature TV",Teen,12
+"Spanish-Language TV Shows",Adult,72
+"Spanish-Language TV Shows",Kid-Friendly,13
+"Spanish-Language TV Shows","Not Rated",1
+"Spanish-Language TV Shows",Teen,30
+Sports,Adult,51
+Sports,Kid-Friendly,45
+Sports,"Not Rated",8
+Sports,Teen,53
+"Teen TV Shows",Adult,13
+"Teen TV Shows",Kid-Friendly,14
+"Teen TV Shows","Not Rated",1
+"Teen TV Shows",Teen,16
+Thrillers,Adult,293
+Thrillers,Kid-Friendly,10
+Thrillers,"Not Rated",15
+Thrillers,Teen,117
+"TV Mysteries",Adult,37
+"TV Mysteries",Kid-Friendly,2
+"TV Mysteries","Not Rated",1
+"TV Mysteries",Teen,29
