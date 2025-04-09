@@ -1,6 +1,9 @@
-# Netflix Streaming Content Analysis (2008–2020) (March 2025 - Present)
+# Netflix Streaming Content Analysis (2008–2020)
 This project explores trends in Netflix's content from January 2008 to January 2020 using a cleaned and transformed [dataset](https://public.tableau.com/app/learn/sample-data) from Tableau Public.
 It analyzes growth trends, genre and rating distributions, and country-level contributions — offering insight into how Netflix’s global catalog has evolved.
+
+## Project Timeline
+I contributed to this project from March 2025 to April 2025.
 
 ## Project Highlights
 - **Tools Used**: SQL · Excel · Power BI · DAX
