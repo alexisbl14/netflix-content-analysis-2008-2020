@@ -84,12 +84,16 @@ The interactive dashboard consists of five pages:
 
 **1. Overview** 
 A summary of total titles, content and growth trends over time, and type breakdown (Movies vs TV Shows). Includes YoY growth and slicers for filtering by genre, country, rating, release year, and type.
+
 **2. Genre Breakdown**
 Explores the most popular genres overall and by content type, as well as the genre distribution over time.
+
 **3. Rating Analysis**
 Groups content ratings into Kid-Friendly, Teen, Adult, and Not Rated categories. Visualizes the shift in rating types over time and highlights the most common categories per genre.
+
 **4. Country Analysis**
 Examines which countries contribute the most titles to Netflix's catalog and what genres are most commone in each. Includes a treemap and top genres for the top countries. 
+
 **5. Explorer Page**
 A search table for users to filter and explore individual titles by genre, release year, duration (seasons or minutes), rating category, and type.
 
