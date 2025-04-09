@@ -45,7 +45,7 @@ I contributed to this project from March 2025 to April 2025.
   | `year_added` | Year the title was added to Netflix |
   | `years_added_after_release` | Denotes the number of years after the title was released that it was added to Netflix |
 
-  _Note: `year_added` and `years_added_after_release` are not fields from the original dataset. I added these columns to create a measure of how many years after relase a title was added to Netflix for future analyses._
+  _Note: `year_added` and `years_added_after_release` were created for temporal analysis._
 
   `netflix_titles_category`
   
@@ -54,7 +54,7 @@ I contributed to this project from March 2025 to April 2025.
   | `listed_in` | Original genre for the title |
   | `show_id` | ID for the TV Show or Movie |
 
-   _Note: Titles with more than one genre had one row for each genre._
+   _Note: Titles with multiple genres appear as separate rows._
 
   `netflix_titles_countries`
   
@@ -68,18 +68,13 @@ I contributed to this project from March 2025 to April 2025.
 ## Dataset Preparation
 The dataset included over 6,000 Netflix titles with different attributes, and the data required a bit of cleaning and restructuring.
 Most of the dataset preparation and cleaning was done in Excel:
-- In entries with a missing `rating` field, I looked up the rating on Google and filled it in myself
-    * about 9 entries, or ~0.14% of entries, were affected here
-- Entries with a missing `date_added` field were removed, since a lot of my analysis relies on this field
-    * about 11 entries, or ~0.17% of entries, were removed
+- Looked up and filled in 9 missing ratings manually (~0.14% of entries)
+- Removed 11 entries with a missing `date_added` since a lot of my analysis relies on this field (~0.17% of entries)
 - 4 entries had dates as titles, so I changed the datatype to string for consistency with the rest of the dataset
-- 2 entries had data overflowing to the next row, so I bumped the overflow back to the original row with a close attention to detail
-- 95 entries had a `rating` of `TV-Y7-FV`, which I changed to just `TV-Y7` since it is a very similar rating, in order to normalize `ratings` for a more cohesive analysis
-- 7 entries had `UR` rating, which I changed to `NR` to have a more cohesive analysis since these ratings mean the same thing
-- There were 2 duplicate entries, of which I removed the duplicates if they had the same dates and descriptions
-- Created a column to denote the number of years after release that the show or movie was added to Netflix
-     * Some values were negative, so I set them to be 0 since it doesn't make sense that the show or movie was added to Netflix years before it was released.
-     * This affected about 9 entries, or 0.14%
+- Fixed 2 overflowed rows with manual correction and a close attention to detail
+- Normalized 95 entries with a `rating` of `TV-Y7-FV` to  `TV-Y7` and 7 entries with a `rating` of `UR` to `NR` for a more cohesive analysis
+- Removed 2 duplicate entries (same dates and descriptions along with show_id and title)
+- Added `years_added_after_release` column to denote the number of years after release that the show or movie was added to Netflix and set negatives to 0 (~9 entries or 0.14%)
 - Joined 5 tables using `show_id` as the primary key
 - Created mapping tables for genres and ratings
 
