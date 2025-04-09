@@ -16,16 +16,49 @@ It analyzes growth trends, genre and rating distributions, and country-level con
 - **Dashboard Design**: Clean, responsive layout, multi-page navigation, tooltips, card KPIs
 
 ## Dataset Overview
-- **Source**: (Excel table with 5 sheets)
-- **Data Card**:
-- (insert table here)
+- **Source**: [Excel](https://public.tableau.com/app/learn/sample-data) table with 5 sheets
 - Cleaned and joined 3 CSVs from the original dataset
     * `netflix_titles_working_sheet`
     * `netflix_titles_category`
     * `netflix_titles_countries`
+- **Data Card**: The following tables describe the 3 CSV files with data from the source.
+  `netflix_titles_description`
+  
+  | Field | Description |
+  | -------- | ----------- |
+  | `duration_minutes` | Duration of a movie in minutes, blank for TV Shows |
+  | `duration_seasons` | Duration of a TV Show in seasons, blank for Movies |
+  | `type` | Type of the title, can be `TV Show` or `Movie` |
+  | `title` | Name of the TV Show or Movie on Netflix |
+  | `date_added` | The date the title was added to Netflix |
+  | `release_year` | The year the title was released |
+  | `rating` | Rating as given by the Movie/TV Show rating system, ie `TV-14`, `PG-13`, `R`, etc|
+  | `description` | Short description of the TV Show or Movie |
+  | `show_id` | ID for the TV Show or Movie, also used as the primary key |
+  | `year_added` | Year the title was added to Netflix |
+  | `years_added_after_release` | Denotes the number of years after the title was released that it was added to Netflix |
+
+  _Note: `year_added` and `years_added_after_release` are not fields from the original dataset. I added these columns to create a measure of how many years after relase a title was added to Netflix for future analyses._
+
+  `netflix_titles_category`
+  
+  | Field | Description |
+  | -------- | ----------- |
+  | `listed_in` | Original genre for the title |
+  | `show_id` | ID for the TV Show or Movie |
+
+_Note: Titles with more than one genre had one row for each genre._
+
+  `netflix_titles_countries`
+  
+  | Field | Description |
+  | -------- | ----------- |
+  | `country` | Country the title originated from |
+  | `show_id` | ID for the TV Show or Movie |
+
 - Joined 2 CSVs that acted as mapping tables
-    * `genre_mapping`
-    * `rating_mapping`
+    * `genre_mapping` maps the original genre to a normalized genre, ie TV Drama and Drama just become one genre: Drama
+    * `rating_mapping` maps the original ratings to a label such as `Kid-Friendly`, `Teen`, `Adult`, or `Not Rated`
 
 ## Dataset Preparation
 
